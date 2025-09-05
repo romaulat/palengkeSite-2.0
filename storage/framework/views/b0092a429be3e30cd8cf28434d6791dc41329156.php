@@ -1,0 +1,94 @@
+<?php $__env->startSection('content'); ?>
+<div class="container">
+        <div class="profile">
+            <div class="profile-wrapper">
+                <form action="" method="GET"  class="form-group list-header" id="form-header">
+                    <h3>Users</h3>
+
+                    <div class="list-header-fields">
+                        
+                        <div class="form-group">
+                            <input  class="form-control" type="text" name="search" id="search" value="<?php echo e(old('search') ??  $_GET['search']  ?? ''); ?>" placeholder="Search">
+                        </div>
+
+                        <div class="form-group">
+                            <select  class="form-control" id="orderby" name="orderby" placeholder="Order By" value="" >
+                                <option value="A-Z"     <?=  ( isset( $_GET['orderby'] ) ?  ( $_GET['orderby'] == 'A-Z' ) ? 'selected' : '' : '' ); ?>>Name (A-Z)</option>
+                                <option value="Z-A"     <?=  ( isset( $_GET['orderby'] ) ?  ( $_GET['orderby'] == 'Z-A' ) ? 'selected' : '' : '' ); ?>>Name (Z-A)</option>
+                                <option value="recent"  <?=  ( isset( $_GET['orderby'] ) ?  ( $_GET['orderby'] == 'recent' ) ? 'selected' : '' : '' ); ?>>Recent</option>
+                                <option value="oldest"  <?=  ( isset( $_GET['orderby'] ) ?  ( $_GET['orderby'] == 'oldest' ) ? 'selected' : '' : '' ); ?>>Oldest</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <select  class="form-control" id="stall" name="stall" placeholder="Stall Status" value="" >
+                                <option value="">All</option>
+                                <option value="active"     <?=  ( isset( $_GET['stall'] ) ?  ( $_GET['stall'] == 'active' ) ? 'selected' : '' : '' ); ?>>Active</option>
+                                <option value="inactive"     <?=  ( isset( $_GET['stall'] ) ?  ( $_GET['stall'] == 'inactive' ) ? 'selected' : '' : '' ); ?>>Inactive</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <select  class="form-control" id="contract" name="contract" placeholder="Contract" value="" >
+                                <option value="">All</option>
+                                <option value="active"     <?=  ( isset( $_GET['contract'] ) ?  ( $_GET['contract'] == 'active' ) ? 'selected' : '' : '' ); ?>>Active</option>
+                                <option value="end"     <?=  ( isset( $_GET['contract'] ) ?  ( $_GET['contract'] == 'end' ) ? 'selected' : '' : '' ); ?>>Contract End</option>
+                            </select>
+                        </div>
+
+                        <?php if(isset($_GET['page'])): ?>
+                            <input type="hidden" name="page" value="<?php echo e($_GET['page']); ?>">
+                        <?php endif; ?>
+                    </div>
+
+
+
+
+
+                </form>
+
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>Type</th>
+                            <th>Action</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <?php $__currentLoopData = $users; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $user): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                            <tr>
+                                <td><?php echo e($user->first_name); ?></td>
+                                <td><?php echo e($user->last_name); ?></td>
+                                <td><?php echo e($user->email); ?></td>
+                                <td><?php echo e($user->seller->seller_type); ?></td>
+                                <td>
+                                    <a href="<?php echo e(route('admin.show.seller', $user->id)); ?>">View</a> | 
+                                    <a href="<?php echo e(route('admin.users.edit', $user->id)); ?>">Edit</a> |
+                                    <a href="#" data-action-delete="User" data-href="<?php echo e(route('admin.sellers.delete', $user->id)); ?>"> Delete </a>
+                                </td>
+                            </tr>
+                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                        </tbody>
+                    </table>
+                </div>
+                <?php if( isset($_GET) ): ?>
+                <?php echo e($users->appends($_GET)->links()); ?>
+
+                <?php else: ?>
+                <?php echo e($users->links()); ?>
+
+                <?php endif; ?>
+                <!-- <a href="<?php echo e(route('admin.stalls.create')); ?>" class="info-header-edit"> <i class="fa fa-plus-circle"></i> Create</a> -->
+                <a href="<?php echo e(route('admin.seller.export')); ?>?<?php echo e($request->getQueryString()); ?>" class="btn btn-primary"><span class="fa fa-download"></span> Downloads</a>
+            </div>
+        </div>
+    </div>
+<?php $__env->stopSection(); ?>
+
+
+
+<?php echo $__env->make('layouts.admin', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\laragon\www\palengkesite\resources\views/admin/users/sellers.blade.php ENDPATH**/ ?>

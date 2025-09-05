@@ -1,0 +1,164 @@
+[27-03-2023 15:54:59] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[27-03-2023 15:54:59] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[27-03-2023 15:54:59] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[27-03-2023 15:55:00] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[27-03-2023 15:56:42] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[27-03-2023 15:56:42] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[27-03-2023 15:56:42] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[27-03-2023 15:56:43] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[27-03-2023 16:01:19] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[27-03-2023 16:01:21] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[27-03-2023 16:01:21] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[27-03-2023 16:01:22] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[27-03-2023 16:10:02] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[27-03-2023 16:10:02] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[27-03-2023 16:10:03] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[27-03-2023 16:10:03] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[27-03-2023 16:13:19] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[27-03-2023 16:13:20] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[27-03-2023 16:13:20] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MQQU6XA2N149460J4240662X
+[27-03-2023 16:13:21] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[27-03-2023 16:13:21] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MQQU6XA2N149460J4240662X/execute
+[27-03-2023 16:13:26] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[27-03-2023 23:37:05] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[27-03-2023 23:37:27] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[27-03-2023 23:38:17] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[27-03-2023 23:39:47] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[27-03-2023 23:43:11] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[27-03-2023 23:44:29] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[30-03-2023 08:03:36] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[30-03-2023 08:03:38] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[30-03-2023 08:03:38] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[30-03-2023 08:03:39] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[30-03-2023 08:07:51] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[30-03-2023 08:07:53] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[30-03-2023 08:07:53] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MQSNDWQ2WH46768FN1712101
+[30-03-2023 08:07:55] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[30-03-2023 08:07:56] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MQSNDWQ2WH46768FN1712101/execute
+[30-03-2023 08:07:58] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[30-03-2023 08:26:51] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[30-03-2023 08:26:52] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[30-03-2023 08:26:52] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[30-03-2023 08:26:54] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[30-03-2023 08:27:04] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[30-03-2023 08:27:06] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[30-03-2023 08:27:06] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[30-03-2023 08:27:09] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[30-03-2023 08:27:37] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[30-03-2023 08:27:38] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[30-03-2023 08:27:38] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MQSNOXA0HV57058MH0840357
+[30-03-2023 08:27:40] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[30-03-2023 08:27:40] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MQSNOXA0HV57058MH0840357/execute
+[30-03-2023 08:27:44] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[19-04-2023 02:28:03] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[19-04-2023 02:28:04] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 406
+[19-04-2023 02:28:04] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 406 when accessing https://api.sandbox.paypal.com/v1/oauth2/token. <html>
+<head><title>406 Not Acceptable</title></head>
+<body bgcolor="white">
+<center><h1>406 Not Acceptable</h1></center>
+<hr><center>nginx/1.14.0 (Ubuntu)</center>
+</body>
+</html>
+
+[19-04-2023 02:41:56] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[19-04-2023 02:41:57] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 406
+[19-04-2023 02:41:57] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 406 when accessing https://api.sandbox.paypal.com/v1/oauth2/token. <html>
+<head><title>406 Not Acceptable</title></head>
+<body bgcolor="white">
+<center><h1>406 Not Acceptable</h1></center>
+<hr><center>nginx/1.14.0 (Ubuntu)</center>
+</body>
+</html>
+
+[19-04-2023 02:42:02] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[19-04-2023 02:42:02] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 406
+[19-04-2023 02:42:02] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 406 when accessing https://api.sandbox.paypal.com/v1/oauth2/token. <html>
+<head><title>406 Not Acceptable</title></head>
+<body bgcolor="white">
+<center><h1>406 Not Acceptable</h1></center>
+<hr><center>nginx/1.14.0 (Ubuntu)</center>
+</body>
+</html>
+
+[19-04-2023 02:42:32] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[19-04-2023 02:42:32] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 406
+[19-04-2023 02:42:32] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 406 when accessing https://api.sandbox.paypal.com/v1/oauth2/token. <html>
+<head><title>406 Not Acceptable</title></head>
+<body bgcolor="white">
+<center><h1>406 Not Acceptable</h1></center>
+<hr><center>nginx/1.14.0 (Ubuntu)</center>
+</body>
+</html>
+
+[19-04-2023 02:45:28] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[19-04-2023 02:45:28] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 406
+[19-04-2023 02:45:28] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 406 when accessing https://api.sandbox.paypal.com/v1/oauth2/token. <html>
+<head><title>406 Not Acceptable</title></head>
+<body bgcolor="white">
+<center><h1>406 Not Acceptable</h1></center>
+<hr><center>nginx/1.14.0 (Ubuntu)</center>
+</body>
+</html>
+
+[19-04-2023 03:09:12] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[19-04-2023 03:09:13] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 406
+[19-04-2023 03:09:13] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 406 when accessing https://api.sandbox.paypal.com/v1/oauth2/token. <html>
+<head><title>406 Not Acceptable</title></head>
+<body bgcolor="white">
+<center><h1>406 Not Acceptable</h1></center>
+<hr><center>nginx/1.14.0 (Ubuntu)</center>
+</body>
+</html>
+
+[19-04-2023 03:09:18] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[19-04-2023 03:09:19] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 406
+[19-04-2023 03:09:19] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 406 when accessing https://api.sandbox.paypal.com/v1/oauth2/token. <html>
+<head><title>406 Not Acceptable</title></head>
+<body bgcolor="white">
+<center><h1>406 Not Acceptable</h1></center>
+<hr><center>nginx/1.14.0 (Ubuntu)</center>
+</body>
+</html>
+
+[19-04-2023 03:17:11] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[19-04-2023 03:17:42] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[19-04-2023 03:18:13] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[19-04-2023 03:18:13] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[19-04-2023 03:18:13] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[19-04-2023 03:18:15] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[19-04-2023 03:20:02] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[19-04-2023 03:20:03] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[19-04-2023 03:20:03] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MQ7OZ5Y6BA10006WB2861600
+[19-04-2023 03:20:04] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[19-04-2023 03:20:04] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MQ7OZ5Y6BA10006WB2861600/execute
+[19-04-2023 03:20:06] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[28-04-2023 09:47:51] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[28-04-2023 09:47:52] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[28-04-2023 09:47:52] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[28-04-2023 09:47:53] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[28-04-2023 09:48:18] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[28-04-2023 09:48:19] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[28-04-2023 09:48:19] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MRFSLSI28K46706VP877422U
+[28-04-2023 09:48:20] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[28-04-2023 09:48:20] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MRFSLSI28K46706VP877422U/execute
+[28-04-2023 09:48:22] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[14-05-2023 16:18:41] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[14-05-2023 16:18:43] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[14-05-2023 16:18:43] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[14-05-2023 16:18:45] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[14-05-2023 16:20:34] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[14-05-2023 16:20:36] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[14-05-2023 16:20:36] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MRQJSZQ1E9042040L975231V
+[14-05-2023 16:20:38] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[14-05-2023 16:20:38] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MRQJSZQ1E9042040L975231V/execute
+[14-05-2023 16:20:41] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[20-05-2023 20:39:49] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[20-05-2023 20:39:53] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[20-05-2023 20:39:53] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-05-2023 20:39:57] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[20-05-2023 20:40:31] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[20-05-2023 20:40:35] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[20-05-2023 20:40:35] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MRUL7HA687902507Y194733K
+[20-05-2023 20:40:36] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[20-05-2023 20:40:37] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MRUL7HA687902507Y194733K/execute
+[20-05-2023 20:40:43] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
